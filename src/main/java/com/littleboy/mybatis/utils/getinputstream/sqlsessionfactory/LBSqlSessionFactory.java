@@ -1,42 +1,29 @@
 package com.littleboy.mybatis.utils.getinputstream.sqlsessionfactory;
 
-import org.apache.ibatis.exceptions.ExceptionFactory;
-import org.apache.ibatis.executor.ErrorContext;
 import org.apache.ibatis.session.Configuration;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.defaults.DefaultSqlSessionFactory;
+import org.apache.ibatis.session.ExecutorType;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.TransactionIsolationLevel;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Properties;
+import java.sql.Connection;
 
-public class LBSqlSessionFactory  {
-    public LBSqlSessionFactory(){ }
-    public SqlSessionFactory build(InputStream inputStream){
-       return  this.build((InputStream) inputStream, (String) null,(Properties) null);
-    }
+public interface LBSqlSessionFactory {
+    SqlSession openSession();
 
-    public SqlSessionFactory build(InputStream inputStream,String enviorment, Properties props){
-        SqlSessionFactory sqlSessionFactory;
+    SqlSession openSessopn(boolean var1);
 
-        try{
-            LittleBoyXMLConfigBuilder configBuilder = new LittleBoyXMLConfigBuilder(inputStream,enviorment,props);
-            sqlSessionFactory = this.build(configBuilder.parse());
-        }catch (Exception e){
-            throw ExceptionFactory.wrapException("Error building SqlSession.", e);
-        }finally {
-            ErrorContext.instance().reset();
+    SqlSession openSession(Connection var1);
 
-            try {
-                inputStream.close();
-            } catch (IOException var13) {
-                ;
-            }
-        }
-        return sqlSessionFactory;
-    }
+    SqlSession openSession(TransactionIsolationLevel var1);
 
-    public SqlSessionFactory build(Configuration configuration){
-        return new DefaultSqlSessionFactory(configuration);
-    }
+    SqlSession openSession(ExecutorType var1);
+
+    SqlSession openSession(ExecutorType var1, boolean var2);
+
+    SqlSession openSession(ExecutorType var1, Connection var2);
+
+    SqlSession openSession(ExecutorType var1, TransactionIsolationLevel var2);
+
+    Configuration getConfiguration();
+
 }
