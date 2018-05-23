@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="test">
+    <select id="findUserById" parameterType="java.lang.Long" resultType="com.littleboy.mybatis.User">
+		select * from user where id = #{id}
+	</select>
+	<insert id="insertUser" parameterType="java.lang.Long">
+		insert into user3 (id) values (#{id,jdbcType=BIGINT})
+	</insert>
+
+	<select id="testquerytime" resultType="com.littleboy.mybatis.User">
+		select * from user,user2,user3 where user.id=user2.id and user.id=user3.id
+	</select>
+
+</mapper>
