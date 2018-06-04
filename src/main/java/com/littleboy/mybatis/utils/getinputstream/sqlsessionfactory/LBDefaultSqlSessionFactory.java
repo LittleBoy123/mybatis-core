@@ -3,6 +3,7 @@ package com.littleboy.mybatis.utils.getinputstream.sqlsessionfactory;
 import org.apache.ibatis.exceptions.ExceptionFactory;
 import org.apache.ibatis.executor.ErrorContext;
 import org.apache.ibatis.executor.Executor;
+import org.apache.ibatis.executor.SimpleExecutor;
 import org.apache.ibatis.mapping.Environment;
 import org.apache.ibatis.session.Configuration;
 import org.apache.ibatis.session.ExecutorType;
@@ -63,7 +64,6 @@ public class LBDefaultSqlSessionFactory implements LBSqlSessionFactory {
 
     private SqlSession openSessionFromDataSource(ExecutorType executorType, TransactionIsolationLevel level, boolean autoCommit) {
         Transaction tx = null;
-
         DefaultSqlSession sqlSession;
 
         try {

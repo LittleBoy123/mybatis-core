@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBPerpetualCache.java" line="53" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bb015caa-6859-4efd-8739-aa2743c29dd2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBPerpetualCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBDefaultSqlSessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBSqlSessionFactoryBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/littleboy/xml/XMLPasrse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBBaseExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBSimpleExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/resulthandler/LBResultContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/resulthandler/LBResultHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsession/LBSqlSession.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/test/MybatisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBSqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBSqlSessionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBSqlSessionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBPerpetualCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBPerpetualCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBDefaultSqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBDefaultSqlSessionFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,8 +29,8 @@
       <file leaf-file-name="MybatisTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/test/MybatisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="188">
+              <caret line="38" column="45" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,33 +38,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultSqlSession.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class">
+      <file leaf-file-name="LBDefaultSqlSessionFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBDefaultSqlSessionFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="123" column="62" selection-start-line="123" selection-start-column="62" selection-end-line="123" selection-end-column="62" />
+            <state relative-caret-position="414">
+              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
               <folding>
-                <element signature="e#4323#4324#0" expanded="true" />
-                <element signature="e#4386#4387#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Configuration.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/Configuration.class">
+      <file leaf-file-name="SimpleExecutor.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/executor/SimpleExecutor.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="552" column="35" lean-forward="true" selection-start-line="552" selection-start-column="35" selection-end-line="552" selection-end-column="35" />
+            <state relative-caret-position="333">
+              <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CachingExecutor.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/executor/CachingExecutor.class">
+      <file leaf-file-name="LBSimpleExecutor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBSimpleExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="380">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,46 +74,72 @@
       <file leaf-file-name="BaseExecutor.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/executor/BaseExecutor.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="-4019">
+              <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+              <folding>
+                <element signature="method#BaseExecutor#0;class#BaseExecutor#0" />
+                <element signature="method#getTransaction#0;class#BaseExecutor#0" />
+                <element signature="method#close#0;class#BaseExecutor#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PerpetualCache.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/cache/impl/PerpetualCache.class">
+      <file leaf-file-name="LBBaseExecutor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBBaseExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LBPerpetualCache.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBPerpetualCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+            <state relative-caret-position="460">
+              <caret line="210" column="44" lean-forward="true" selection-start-line="210" selection-start-column="44" selection-end-line="210" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#266#281#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#421#422#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
+                <element signature="method#LBBaseExecutor#0;class#LBBaseExecutor#0" />
+                <element signature="method#query#0;class#LBBaseExecutor#0" />
+                <element signature="method#handleLocallyCacheOutPutParamter#0;class#LBBaseExecutor#0" />
+                <element signature="method#clearLocalCache#0;class#LBBaseExecutor#0" />
+                <element signature="class#DeferredLoad#0;class#LBBaseExecutor#0" />
+                <element signature="method#getConnection#0;class#LBBaseExecutor#0" />
+                <element signature="method#closeStatement#0;class#LBBaseExecutor#0" />
+                <element signature="method#queryCursor#0;class#LBBaseExecutor#0" />
+                <element signature="method#createCacheKey#0;class#LBBaseExecutor#0" />
+                <element signature="e#8903#8904#0" expanded="true" />
+                <element signature="e#8940#8941#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LBResultHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/resulthandler/LBResultHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LBResultContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/resulthandler/LBResultContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LBExecutor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -118,6 +149,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -135,6 +167,10 @@
       <find />
       <find>isSpecifiedEnvironment</find>
       <find>localCache</find>
+      <find>deferredLoads</find>
+      <find>defaultExecutorType</find>
+      <find>delegate</find>
+      <find>executor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,13 +197,21 @@
         <option value="$PROJECT_DIR$/src/test/java/XMLPasrse.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/littleboy/xml/XMLPasrse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBSqlSessionFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBDefaultSqlSessionFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBSqlSessionFactoryBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/test/MybatisTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/Cache.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBCache.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/MyPerpetualCache.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBPerpetualCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/resulthandler/LBResultContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/resulthandler/LBResultHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/Executor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/FinalClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/test/FinalClassTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/test/MybatisTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBExecutor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBDefaultSqlSessionFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBBaseExecutor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBSimpleExecutor.java" />
       </list>
     </option>
   </component>
@@ -201,8 +245,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,27 +310,18 @@
               <item name="MyBatisCoreParse" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBatisCoreParse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyBatisCoreParse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="getinputstream" type="462c0819:PsiDirectoryNode" />
+              <item name="resulthandler" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,6 +354,17 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.MybatisTest">
+    <configuration name="FinalClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.littleboy.mybatis.test.FinalClassTest" />
+      <module name="Mybatis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.littleboy.mybatis.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="MybatisTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.littleboy.mybatis.test.MybatisTest" />
       <module name="Mybatis" />
@@ -387,10 +431,12 @@
     <list>
       <item itemvalue="Application.MybatisTest" />
       <item itemvalue="Application.XMLPasrse" />
+      <item itemvalue="Application.FinalClassTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MybatisTest" />
+        <item itemvalue="Application.FinalClassTest" />
         <item itemvalue="Application.XMLPasrse" />
       </list>
     </recent_temporary>
@@ -411,11 +457,12 @@
       <workItem from="1526524114306" duration="1798000" />
       <workItem from="1526529080890" duration="5528000" />
       <workItem from="1526864057113" duration="67297000" />
+      <workItem from="1527472251512" duration="46683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190526000" />
+    <option name="totallyTimeSpent" value="237209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -430,20 +477,20 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.32430455" side_tool="true" weight="0.3984127" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88433385" weight="0.35771066" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88433385" weight="0.13036565" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18960468" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22986823" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6756955" visible="true" weight="0.07472178" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6756955" visible="true" weight="0.0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -462,13 +509,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/executor/CachingExecutor.class</url>
-          <line>71</line>
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/executor/BaseExecutor.class</url>
+          <line>129</line>
           <properties />
-          <option name="timeStamp" value="40" />
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="41" />
+      <option name="time" value="49" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -480,166 +527,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/xml/xpath/XPathConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/XXX.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Users.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/org/w3c/dom/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-836">
-          <caret line="164" column="17" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/org/w3c/dom/NodeList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/com/sun/org/apache/xpath/internal/jaxp/XPathExpressionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="347" column="20" selection-start-line="347" selection-start-column="20" selection-end-line="347" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/xml/xpath/XPathExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="122" column="21" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/com/sun/org/apache/xml/internal/dtm/DTMIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/com/sun/org/apache/xpath/internal/Expression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1120">
-          <caret line="51" column="28" lean-forward="true" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/com/sun/org/apache/xpath/internal/objects/XObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="49" column="35" lean-forward="true" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/com/sun/org/apache/xpath/internal/axes/NodeSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/com/sun/org/apache/xpath/internal/objects/XNodeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="930" column="5" lean-forward="true" selection-start-line="930" selection-start-column="5" selection-end-line="930" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/com/sun/org/apache/xml/internal/dtm/ref/DTMNodeList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="58" column="15" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/org/xml/sax/helpers/DefaultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/org/xml/sax/helpers/LocatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/org/w3c/dom/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/parsing/XPathParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="202" column="58" selection-start-line="202" selection-start-column="54" selection-end-line="202" selection-end-column="58" />
-          <folding>
-            <element signature="e#7193#7194#0" expanded="true" />
-            <element signature="e#7256#7257#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/builder/xml/XMLConfigBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="284" column="49" lean-forward="true" selection-start-line="284" selection-start-column="49" selection-end-line="284" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/parsing/PropertyParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/parsing/XNode.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
-          <folding>
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/builder/BaseBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="e#2844#2845#0" expanded="true" />
-            <element signature="e#2903#2904#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/com/sun/org/apache/xpath/internal/jaxp/XPathImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="788">
@@ -658,9 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
           <caret line="232" column="22" selection-start-line="232" selection-start-column="18" selection-end-line="232" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -729,20 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/LittleBoyClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/LittleBoyClassLoaderWapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/SqlSessionFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -750,77 +620,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBSqlSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBDefaultSqlSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="73" column="77" lean-forward="true" selection-start-line="73" selection-start-column="77" selection-end-line="73" selection-end-column="77" />
-          <folding>
-            <element signature="e#1015#1016#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBSqlSessionFactoryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="82" lean-forward="true" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/executor/Executor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/executor/CachingExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="123" column="62" selection-start-line="123" selection-start-column="62" selection-end-line="123" selection-end-column="62" />
-          <folding>
-            <element signature="e#4323#4324#0" expanded="true" />
-            <element signature="e#4386#4387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="552" column="35" lean-forward="true" selection-start-line="552" selection-start-column="35" selection-end-line="552" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -838,10 +641,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/executor/BaseExecutor.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/cache/impl/PerpetualCache.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        <state relative-caret-position="595">
+          <caret line="64" column="71" lean-forward="true" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/ResultContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/ResultHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1060">
+          <caret line="205" column="45" selection-start-line="205" selection-start-column="45" selection-end-line="205" selection-end-column="45" />
+          <folding>
+            <element signature="e#10037#10038#0" expanded="true" />
+            <element signature="e#10084#10085#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/reflection/MetaObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/FinalClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="e#95#96#0" expanded="true" />
+            <element signature="e#121#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/test/FinalClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/LittleBoyClassLoaderWapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/LittleBoyClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBSqlSessionFactoryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -852,46 +734,220 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/test/MybatisTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBPerpetualCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="170">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#336#351#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/executor/Executor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/executor/ExecutionPlaceholder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/SqlSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsession/LBSqlSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="62" lean-forward="true" selection-start-column="62" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/executor/BatchExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Users.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBSqlSessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/cache/impl/PerpetualCache.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/test/MybatisTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="71" />
+        <state relative-caret-position="188">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBPerpetualCache.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/logging/Log.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/executor/CachingExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="90" column="28" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <element signature="e#4323#4324#0" expanded="true" />
+            <element signature="e#4386#4387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5338">
+          <caret line="533" column="5" lean-forward="true" selection-start-line="533" selection-start-column="5" selection-end-line="533" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/sqlsessionfactory/LBDefaultSqlSessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#266#281#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/executor/SimpleExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="71" column="43" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/sql/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mybatis.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/resulthandler/LBResultContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBBaseExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="210" column="44" lean-forward="true" selection-start-line="210" selection-start-column="44" selection-end-line="210" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#LBBaseExecutor#0;class#LBBaseExecutor#0" />
+            <element signature="method#query#0;class#LBBaseExecutor#0" />
+            <element signature="method#handleLocallyCacheOutPutParamter#0;class#LBBaseExecutor#0" />
+            <element signature="method#clearLocalCache#0;class#LBBaseExecutor#0" />
+            <element signature="class#DeferredLoad#0;class#LBBaseExecutor#0" />
+            <element signature="method#getConnection#0;class#LBBaseExecutor#0" />
+            <element signature="method#closeStatement#0;class#LBBaseExecutor#0" />
+            <element signature="method#queryCursor#0;class#LBBaseExecutor#0" />
+            <element signature="method#createCacheKey#0;class#LBBaseExecutor#0" />
+            <element signature="e#8903#8904#0" expanded="true" />
+            <element signature="e#8940#8941#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/resulthandler/LBResultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/executor/BaseExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4019">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding>
+            <element signature="method#BaseExecutor#0;class#BaseExecutor#0" />
+            <element signature="method#getTransaction#0;class#BaseExecutor#0" />
+            <element signature="method#close#0;class#BaseExecutor#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/littleboy/mybatis/utils/getinputstream/cache/LBSimpleExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

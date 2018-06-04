@@ -47,8 +47,21 @@ public class LBPerpetualCache implements  LBCache {
         if(this.getId() == null){
             throw new CacheException("Cache instances require an ID.");
         }else if(this == obj){
-
+            return true;
+        }else if(!(obj instanceof  LBCache)){
+            return false;
+        }else{
+            LBCache otherCache = (LBCache) obj;
+            return this.getId().equals(otherCache.getId());
         }
-        return super.equals(obj);
+
+    }
+
+    public int hashCode(){
+        if(this.getId() == null){
+            throw new CacheException("Cache instances require an ID.");
+        }else{
+            return this.getId().hashCode();
+        }
     }
 }
